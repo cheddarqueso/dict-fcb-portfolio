@@ -1,9 +1,45 @@
 body {
-  font-family: sans-serif;
-  margin: auto;
-  max-width: 1280px;
+  background-color: #98ff98;
+  
 }
 
+img{
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  border-style: double;
+}
+
+*{
+  font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2{
+  font-family: "Montserrat", sans-serif;
+}
+
+#landing,
+#gallery {
+  height: 80vh;
+  /* center the content vertically using flexbox */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+ul{
+  list-style: none;
+  padding: 0;
+  color: #fff;
+}
+
+h2 {
+  color: #007bff;
+}
+
+/*
 .navbar {
   background-color: #313236;
   border-radius: 2px;
@@ -21,4 +57,7 @@ body {
 .navbar a:hover {
   color: #ffffff;
 }
+
+*/
+
 
